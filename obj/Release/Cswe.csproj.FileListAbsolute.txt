@@ -1,0 +1,7 @@
+C:\Users\thijs\Desktop\cswe\bin\Release\Cswe.exe.config
+C:\Users\thijs\Desktop\cswe\bin\Release\Cswe.exe
+C:\Users\thijs\Desktop\cswe\bin\Release\Cswe.pdb
+C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.csprojAssemblyReference.cache
+C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.csproj.CoreCompileInputs.cache
+C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.exe
+C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.pdb

@@ -1,0 +1,14 @@
+A:\VisualStudio\Projects\Cswe\bin\Debug\Cswe.exe.config
+A:\VisualStudio\Projects\Cswe\bin\Debug\Cswe.exe
+A:\VisualStudio\Projects\Cswe\bin\Debug\Cswe.pdb
+A:\VisualStudio\Projects\Cswe\obj\Debug\Cswe.csprojAssemblyReference.cache
+A:\VisualStudio\Projects\Cswe\obj\Debug\Cswe.csproj.CoreCompileInputs.cache
+A:\VisualStudio\Projects\Cswe\obj\Debug\Cswe.exe
+A:\VisualStudio\Projects\Cswe\obj\Debug\Cswe.pdb
+C:\Users\thijs\Desktop\cswe\bin\Debug\Cswe.exe.config
+C:\Users\thijs\Desktop\cswe\bin\Debug\Cswe.exe
+C:\Users\thijs\Desktop\cswe\bin\Debug\Cswe.pdb
+C:\Users\thijs\Desktop\cswe\obj\Debug\Cswe.csprojAssemblyReference.cache
+C:\Users\thijs\Desktop\cswe\obj\Debug\Cswe.csproj.CoreCompileInputs.cache
+C:\Users\thijs\Desktop\cswe\obj\Debug\Cswe.exe
+C:\Users\thijs\Desktop\cswe\obj\Debug\Cswe.pdb
