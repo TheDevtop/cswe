@@ -1,15 +1,17 @@
-# Cwse V4
+# C# Written Encryptor
 
 ### Samenvatting:
-De 'CSharp Written Encryptor' is een simpel encryptie programma geschreven door Thijs Haker en gelicenseerd onder de BSD 3 licentie.
+Cwse is een simpel encryptie programma geschreven door Thijs Haker als een schoolopdracht.
+
+De minimale sleutelmaat is 8 karakters.
 
 ### Gebruik:
-Cwse [optie] [bestandsnaam]
+Cwse [-e/-d] [Sleutel] [Bestand]
+
 ### Opties:
 **-e**  (Gebruik de encryptie functie.)
 **-d**  (Gebruik de decryptie functie.)
-### Download:
-You can download the final version [here.](https://github.com/TheDevtop/cswe/raw/main/bin/Release/Cswe.exe)
+
 ### Disclaimer:
-Dit programma houdt geen rekening met het invoeren van mappen en bestanden waar te gebruiker geen toegang tot heeft.
-Ook heeft het .Net Runtime enkele limieten die hoewel mogelijk te omzijlen, niet geschikt zijn voor productie programmatuur.
+Dit programma houdt geen rekening met het invoeren van mappen en bestanden waar de gebruiker geen toegang tot heeft.
+Dit programma is ontworpen als schoolopdracht en **niet** bedoeld voor productie omgevingen.

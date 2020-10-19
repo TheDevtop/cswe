@@ -1,7 +1,7 @@
 ﻿/*
- * C# Written Ecryptor
- * Version 4.0.2
- * Written by Thijs Haker
+ * Program: C# Written Encryptor
+ * Version: 5.0
+ * Authors: Thijs Haker
  */
 
 using System;
@@ -12,15 +12,18 @@ using System.Text;
 static public class Cswe
 {
     // Global Variables
-    static string MSG_NOARGS = "Error: Invalid Arguments Specified!";
+    static string MSG_NOARGS = "Error: Cswe -e/-d [KEY] [FILE]!";
     static string MSG_NOFILE = "Error: File Not Found!";
     static string MSG_NOMEM = "Error: Invalid Filesize!";
-    static string MSG_VER = "Cswe: 4.0.2-Git";
-    static string KEY = "46280174";
+    static string MSG_NOKEY = "Error: Minimum keysize is 8!";
+    static string KEY;
+    static int STATUS;
 
-    // FMT & FML: Formatted & Formatless
-    // DES.IV: Initialization Vector
-    // Try() & Catch() used for hacked-up exception handling
+    static void Configure(string localkey)
+    {
+        KEY = localkey;
+        return;
+    }
     static int Encrypt(string PATH)
     {
         try
@@ -90,31 +93,43 @@ static public class Cswe
         }
         return 0;
     }
+    static void Printstat()
+    {
+        Console.WriteLine("Exitcode: {0}", STATUS);
+        return;
+    }
     static int Main(string[] args)
     {
-        int STATUS;
-        Console.WriteLine(MSG_VER);
-        if (args.Length != 2)
+        if (args.Length != 3)
         {
             Console.WriteLine(MSG_NOARGS);
             STATUS = 1;
-            Console.WriteLine("Exitcode: {0}", STATUS);
+            Printstat();
+            return STATUS;
+        } else if (args[1].Length < 8)
+        {
+            Console.WriteLine(MSG_NOKEY);
+            STATUS = 1;
+            Printstat();
             return STATUS;
         }
+
         switch (args[0])
         {
             case "-e":
-                STATUS = Cswe.Encrypt(args[1]);
+                Cswe.Configure(args[1]);
+                STATUS = Cswe.Encrypt(args[2]);
                 break;
             case "-d":
-                STATUS = Cswe.Decrypt(args[1]);
+                Cswe.Configure(args[1]);
+                STATUS = Cswe.Decrypt(args[2]);
                 break;
             default:
                 Console.WriteLine(MSG_NOARGS);
                 STATUS = 1;
                 break;
         }
-        Console.WriteLine("Exitcode: {0}", STATUS);
+        Printstat();
         return STATUS;
     }
 }

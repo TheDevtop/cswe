@@ -5,3 +5,10 @@ C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.csprojAssemblyReference.cache
 C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.csproj.CoreCompileInputs.cache
 C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.exe
 C:\Users\thijs\Desktop\cswe\obj\Release\Cswe.pdb
+A:\github\cswe\bin\Release\Cswe.exe.config
+A:\github\cswe\bin\Release\Cswe.exe
+A:\github\cswe\bin\Release\Cswe.pdb
+A:\github\cswe\obj\Release\Cswe.csproj.CoreCompileInputs.cache
+A:\github\cswe\obj\Release\Cswe.exe
+A:\github\cswe\obj\Release\Cswe.pdb
+A:\github\cswe\obj\Release\Cswe.csprojAssemblyReference.cache
